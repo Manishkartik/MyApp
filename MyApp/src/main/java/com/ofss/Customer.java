@@ -2,6 +2,10 @@ package com.ofss;
 
 public class Customer {
 	private String firstName;
+	public Customer() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
 
 	public String getFirstName() {
 		return firstName;
@@ -21,10 +25,7 @@ public class Customer {
 		this.firstName = firstName;
 	}
 
-	public Customer() {
-		super();
-		// TODO Auto-generated constructor stub
-	}
+	
 	
 
 }

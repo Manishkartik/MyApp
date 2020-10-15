@@ -3,8 +3,8 @@ package com.ofss;
 public class HelloWorld {
 
 	public static void main(String[] args) {
-		System.out.println("this is my first program in git");
-
+		Customer c1=new Customer("manish");
+		System.out.println(c1);
 	}
 
 }
